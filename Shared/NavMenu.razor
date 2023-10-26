@@ -1,6 +1,6 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">HackTheOxidation's GitHub Page running on Blazor</a>
+        <a class="navbar-brand" href="">HackTheOxidation</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -12,6 +12,21 @@
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="https://github.com/HackTheoxidation" Match="NavLinkMatch.All">
+                <span class="oi oi-terminal" aria-hidden="true"></span> GitHub
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="https://pypi.org/user/HackTheOxidation" Match="NavLinkMatch.All">
+                <span class="oi oi-code" aria-hidden="true"></span> PyPI.org
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="https://crates.io/users/HackTheOxidation" Match="NavLinkMatch.All">
+                <span class="oi oi-cog" aria-hidden="true"></span> Crates.io
             </NavLink>
         </div>
     </nav>
